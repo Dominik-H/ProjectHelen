@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="133" height="15" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="T2" tilewidth="16" tileheight="16">
+  <image source="tilesets/t2.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="481" name="T3" tilewidth="16" tileheight="16">
+  <image source="tilesets/t3.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="961" name="T4" tilewidth="16" tileheight="16">
+  <image source="tilesets/t4.png" width="480" height="256"/>
+ </tileset>
+ <layer name="background" width="133" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Z3W3CMBSFfVPyxAz0hzWg0BFaBils0AUKGyBgkMIcqO1D/1ijPXmIalu6iiNugoXvwyfFH5YtJUfykel2jOkqiofJjCGQgQvQAb8U5qvGdddTL+efyPX3uTEPHpPcXafMxCWer8A1uAF90MvCfNW47nrq5fySXP+I7z/1mOXuOmUmhni+BSMwBndgkIX5qnHd9dTL+T25nsvEF+Z9gx/6z8Qnuf4APui0vu39q8axvJdjPJeJYn55/kj0iaZ82/un0Iu4TBTzy/NHok805dveP4VexGVihfyswYZk+kRTvu39U+hFXCZekIUt2FHcfUK9vOcy8Yrf3sA7xd0n1Mt7LhP2/Jj7hHp5z2XCnh9zn1B/vC/uMW3PZcJe5xz7RAr3DKF+6XkuE/Z5c459IoV7hlBf3GPa/hnff+6xyN3z5tT/vSlx8gegiIiCLB8AAA==
+  </data>
+ </layer>
+ <layer name="walls" width="133" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsQ3AMAwEMWc277+TW+PKJJVAAj+BrtJ+1tpmGTO9ua0mZtMEpQn+oAlKE5QmKE1QmqA0QWliNv8JShPUlybM7h1yDLkILB8AAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="133" height="15">
+  <object name="hero" type="hero" x="21" y="102" width="32" height="32"/>
+  <object name="lava" type="1x5" x="112" y="17" width="15" height="67"/>
+  <object name="lava" type="1x6" x="112" y="144" width="16" height="78"/>
+  <object name="sword" type="sword" x="79" y="33" width="16" height="15"/>
+  <object name="lava" type="block1" x="112" y="98" width="16" height="28"/>
+  <object name="potion" type="potion" x="80" y="190" width="16" height="17"/>
+  <object name="actionZone" type="one" x="65" y="64" width="44" height="114"/>
+  <object name="lava" type="4x13" x="1986" y="13" width="61" height="214"/>
+  <object name="monster1" type="monster" x="193" y="32" width="32" height="32"/>
+  <object name="monster1" type="monster" x="257" y="32" width="32" height="32"/>
+  <object name="monster1" type="monster" x="175" y="174" width="32" height="32"/>
+  <object name="monster1" type="monster" x="255" y="176" width="32" height="32"/>
+  <object name="lava" type="1x6" x="389" y="145" width="15" height="78"/>
+  <object name="lava" type="block2" x="389" y="99" width="16" height="28"/>
+  <object name="lava" type="1x5" x="389" y="18" width="17" height="63"/>
+  <object name="actionZone" type="two" x="342" y="65" width="44" height="114"/>
+  <object name="monster2" type="monster" x="607" y="42" width="32" height="32"/>
+  <object name="monster2" type="monster" x="671" y="42" width="32" height="32"/>
+  <object name="monster2" type="monster" x="589" y="184" width="32" height="32"/>
+  <object name="monster2" type="monster" x="669" y="186" width="32" height="32"/>
+  <object name="lava" type="1x6" x="800" y="145" width="17" height="81"/>
+  <object name="lava" type="block3" x="800" y="97" width="16" height="28"/>
+  <object name="lava" type="1x5" x="800" y="17" width="15" height="64"/>
+  <object name="actionZone" type="three" x="753" y="64" width="44" height="114"/>
+  <object name="monster2" type="monster" x="539" y="37" width="32" height="32"/>
+  <object name="monster2" type="monster" x="537" y="181" width="32" height="32"/>
+  <object name="monster2" type="monster" x="457" y="179" width="32" height="32"/>
+  <object name="monster2" type="monster" x="475" y="37" width="32" height="32"/>
+  <object name="potion" type="potion" x="574" y="111" width="16" height="17"/>
+  <object name="potion" type="potion" x="720" y="111" width="16" height="17"/>
+  <object name="potion" type="potion" x="580" y="21" width="16" height="17"/>
+  <object name="potion" type="potion" x="574" y="201" width="16" height="17"/>
+  <object name="monsterBoss" type="monster" x="1040" y="47" width="95" height="129"/>
+  <object name="actionZone" type="four" x="1920" y="66" width="44" height="114"/>
+  <object name="potion" type="potion" x="194" y="108" width="16" height="17"/>
+ </objectgroup>
+</map>
